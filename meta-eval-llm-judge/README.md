@@ -4,6 +4,8 @@ LLM-as-a-Judgeの判定が人間とどれだけ一致しているかを、Databr
 
 題材はベーカリーのレビュー返信エージェントで、顧客レビューに対する返信が適切か (pass/fail) をジャッジが判定します。
 
+本記事は[『ジャッジを評価するジャッジ ― LLM-as-a-Judgeの信頼性をメタ評価で保証する』](https://qiita.com/taka_yayoi/items/65be4c75b65a6b7363e3) (リポジトリ内 [`meta-evaluation`](https://github.com/taka-yayoi/mlflow-llmops-articles/blob/main/meta-evaluation)) の続編です。基礎編でメタ評価とkappaの考え方を扱い、本編ではその先、不一致の掘り下げとアラインメントに踏み込みます。
+
 ## この検証でやること
 
 ```mermaid
